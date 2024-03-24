@@ -1,5 +1,6 @@
 package vn.edu.ueh.bit.sol2;
 
+//generic programming
 public interface Pipe<IN, OUT> {
     OUT process(IN input);
 
